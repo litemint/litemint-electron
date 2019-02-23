@@ -1,0 +1,45 @@
+{
+  "name": "litemint",
+  "productName": "litemint",
+  "version": "1.1.2",
+  "description": "Litemint Wallet and Marketplace",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "repository": "https://github.com/litemint/litemint-electron",
+  "keywords": [
+    "Stellar",
+    "wallet",
+    "marketplace"
+  ],
+  "author": "Litemint LLC",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^4.0.3",
+    "electron-builder": "^20.38.5"
+  },
+  "build": {
+    "productName": "Litemint",
+    "appId": "com.litemint.app",
+    "mac": {
+      "category": "finance"
+    },
+    "linux": {
+      "target": [
+        "tar.gz"
+      ]
+    },
+    "win": {
+      "target": [
+        "portable",
+        "nsis"
+      ]
+    },
+    "portable": {
+      "artifactName": "Litemint.exe"
+    }
+  }
+}
