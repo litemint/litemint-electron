@@ -1,7 +1,15 @@
 ﻿Native desktop host for [Litemint](https://github.com/litemint/litemint).
 
 ## Building
-Check out the [electron](https://github.com/electron/electron) documentation.
+
+````
+git clone https://github.com/litemint/litemint-electron.git
+cd litemint-electron
+npm install
+npm run dist
+````
+
+Check out the [electron](https://github.com/electron/electron) and [electron builder](https://github.com/electron-userland/electron-builder) documentation for detailed and platform specific options.
 
 ### Dependencies
 
