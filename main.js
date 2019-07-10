@@ -17,10 +17,16 @@ function createWindow() {
             height: 768,
             minWidth: 800,
             minHeight: 600,
+            title: "Litemint",
             icon: path.join(__dirname, "build/icon.ico")
         });
 
     mainWindow.loadURL("https://app.litemint.com");
+
+    mainWindow.on("page-title-updated", function(e) {
+        e.preventDefault()
+    });
+
     Menu.setApplicationMenu(null);
     //mainWindow.webContents.openDevTools();
 
