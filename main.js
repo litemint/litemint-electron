@@ -1,7 +1,7 @@
 /**
  * @overview Litemint electron.
- * @copyright 2018-2019 Frederic Rezeau.
- * @copyright 2018-2019 Litemint LLC.
+ * @copyright 2018-2020 Frederic Rezeau.
+ * @copyright 2018-2020 Litemint LLC.
  * @license [MIT]{@link https://github.com/litemint/litemint-electron/blob/master/LICENSE}
  */
 

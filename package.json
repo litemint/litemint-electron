@@ -1,7 +1,7 @@
 {
   "name": "litemint",
   "productName": "litemint",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "Litemint Wallet and Instant Games Platform",
   "main": "main.js",
   "scripts": {
@@ -18,8 +18,8 @@
   "author": "Litemint LLC",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^5.0.6",
-    "electron-builder": "^21.0.15"
+    "electron": "^8.0.0",
+    "electron-builder": "^22.3.2"
   },
   "build": {
     "productName": "Litemint",
