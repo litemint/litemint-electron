@@ -18,7 +18,7 @@
   "author": "Litemint LLC",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^8.0.0",
+    "electron": "^8.5.2",
     "electron-builder": "^22.8.0"
   },
   "build": {
